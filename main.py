@@ -173,7 +173,7 @@ if __name__ == "__main__":
     my_l.add_book(Book(2, "The Great Gatsby", "F. Scott Fitzgerald", 1925, "Classic", 180))
     my_l.add_book(Book(3, "The Murder at the Vicarage", "Agatha Christie", 1930, "Detective", 304))
     
-    my_l.register_reader(Reader(1, "Erik", "Geghamyan"))
+    my_l.register_reader(Reader(1, name, surname))
     
     my_l.issue_book(1, 1)
     my_l.return_book(1, 1, 0)
